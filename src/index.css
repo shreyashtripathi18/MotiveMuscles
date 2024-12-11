@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons.min.css");
+@import "icofont/dist/icofont.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3 {
+  font-family: "Saira", sans-serif;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+}
+.headingone {
+  max-width: 500px;
+}
+button {
+  font-family: "Saira", sans-serif;
+}
